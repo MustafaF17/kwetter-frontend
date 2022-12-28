@@ -1,0 +1,15 @@
+{
+  "short_name": "Template Tool",
+  "name": "Mail Template Tool",
+  "icons": [
+    {
+      "src": "driessen.ico",
+      "sizes": "265x256",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

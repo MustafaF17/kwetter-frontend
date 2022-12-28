@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+.fa-photo {
+  opacity: 0.8;
+}
+.itemdiv {
+  width: 35px;
+  height: 35px;
+  border-radius: 3px;
+}
+.btn-outline-secondary {
+  color: #6c757d !important;
+  border-color: #6c757d !important;
+}
+.btn-outline-secondary:hover {
+  color: #fff !important;
+  border-color: #ffffff !important;
+}
+
+.btn-driessen {
+  color: #fff;
+  font-family: roihu, Arial, sans-serif;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  background-color: #f15f58;
+  border-color: transparent;
+  display: inline-block;
+  font-weight: 700;
+  text-align: center;
+  user-select: none;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  letter-spacing: .2px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff !important;
+  background-color: #f15f58;
+  border-color: #f15f58;
+}
+
+.dpage {
+  color: #f15f58;
+}
+
+.dpage:hover {
+  color: black;
+}
+
+.nav-link {
+
+  color: red;
+}
