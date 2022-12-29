@@ -1,7 +1,8 @@
 // Settings exports
-export const BaseURL = "https://localhost:7110/api";
-export const TemplateAPI = "https://localhost:7110/api/Template";
-export const TemplateTypeAPI = "https://localhost:7110/api/TemplateType";
-export const DriessenAPI = "";
+export const BaseURL = "http://20.238.169.228";
+export const AuthAPI = BaseURL + "/gateway/auth";
+export const KweetAPI = BaseURL + "/gateway/kweet";
+export const LikeAPI = BaseURL + "/gateway/like";
+
 
 
