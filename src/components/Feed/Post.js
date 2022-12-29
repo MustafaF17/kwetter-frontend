@@ -8,7 +8,7 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import PublishIcon from "@mui/icons-material/Publish";
 
 const Post = forwardRef(
-  ({ displayName, username, verified, text, image, avatar, liked }, ref) => {
+  ({ displayName, username, verified, text, image, avatar, like }, ref) => {
     return (
       <div className="post" ref={ref}>
         <div className="post__avatar">
