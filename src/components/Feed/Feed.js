@@ -105,18 +105,22 @@ function Feed() {
         {showFollowingTweets === false
           ? tweets.map((tweets) => (
               <Post
+                userid={tweets.userId}
                 key={tweets.id}
                 displayName={tweets.name}
                 username={tweets.username}
                 text={tweets.text}
+                status={false}
               />
             ))
           : followingTweets.map((tweets) => (
               <Post
+                userid={tweets.userId}
                 key={tweets.id}
                 displayName={tweets.name}
                 username={tweets.username}
                 text={tweets.text}
+                status={true}
               />
             ))}
 
