@@ -19,7 +19,7 @@ function Sidebar() {
     }
     
     function profile() {
-      navigate('/profile')
+      // navigate('/profile')
       }
 
   return (
